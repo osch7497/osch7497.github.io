@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>1학년 1반 시간표 :></title>
+</head>
+<body>
+    <table>
+        <h1 style="text-align: center; width: 630px;">1학년 소프트웨어개발 1반 시간표</h1>
+        <tr>
+            <th> </th>
+            <th>월</th>
+            <th>화</th>
+            <th>수</th>
+            <th>목</th>
+            <th>금</th>
+        </tr>
+        <tr>
+            <th>1</th>
+            <td class="data">자율</td>
+            <td class="data">수학</td>
+            <td class="data">체육</td>
+            <td class="data">통사</td>
+            <td class="data">통과</td>
+        </tr>
+        <tr>
+            <th>2</th>
+            <td class="data">수학</td>
+            <td class="data">컴시</td>
+            <td class="data">통과</td>
+            <td rowspan="2" class="data">컴퓨터시스템<br>일반</td>
+            <td class="blue" class="data">체육</td>
+        </tr>
+        <tr>
+            <th>3</th>
+            <td rowspan="3" class="data">웹프로그래밍</td>
+            <td class="data">영어</td>
+            <td rowspan="2" class="data">웹프로그래밍</td>
+            <td class="data">진로</td>
+        </tr>
+        <tr>
+            <th>4</th>
+            <td class="data">통사</td>
+            <td class="data">영어</td>
+            <td class="data">국어</td>
+        </tr>
+        <tr>
+            <th>5</th>
+            <td rowspan="2" class="data">프로그래밍</td>
+            <td class="data">영어</td>
+            <td class="data">국어</td>
+            <td class="data">동아리</td>
+        </tr>
+        <tr>
+            <th>6</th>
+            <td class="data">국어</td>
+            <td class="data">수학</td>
+            <td rowspan="2" class="data">프로그래밍</td>
+            <td class="void" rowspan="2"></td>
+        </tr>
+        <tr>
+            <th>7</th>
+            <td class="data">통사</td>
+            <td class="data">통과</td>
+            <td class="void"></td>
+        </tr>
+    </table>
+    <p>사용된 추가적 태그 설명</p>
+    <p>void class: 연보라색 배경</p>
+    <p>blue class: 하늘색 배경</p>
+    <p>border 설명: border: [윤곽선두께][형태]</p>
+    <p>text-align: center: 텍스트 정렬, 중앙으로</p>
+    <p>solid: 단색</p>
+</body>
+<style>
+    table{
+        text-align: center;
+    }
+    td,th{
+        border-radius: 10px;
+    }
+    td:hover{
+        transition: 0.3s;
+        scale: 1.05;
+        
+    }
+    td:active{
+        transition: 0.1s;
+        scale: 1;
+    }
+    td{ 
+        transition: 0.3s;
+        width: 100px;
+        height: 80px;
+        border: 1px solid;
+        background-color: white;
+    }
+    th{ 
+        padding: 10px 10px;
+        border: 1px solid;
+    }
+    .void{
+        background-color: rgb(228, 197, 255);
+    }
+    .blue{
+        background-color: rgb(192, 225, 255);
+    }
+</style>
